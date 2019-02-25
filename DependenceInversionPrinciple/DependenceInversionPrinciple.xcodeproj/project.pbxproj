@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2452FAD91791FFDB5FA59463 /* libPods-DependenceInversionPrincipleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 916616F045FEDAC7963F6486 /* libPods-DependenceInversionPrincipleTests.a */; };
+		70BA0CEF3091A3B467ADD6FB /* libPods-DependenceInversionPrinciple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3715C6ACF8DEBD0FC11D86 /* libPods-DependenceInversionPrinciple.a */; };
+		CE7DA30F2138D64A00DB4684 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7DA30E2138D64A00DB4684 /* AppDelegate.m */; };
+		CE7DA3122138D64A00DB4684 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7DA3112138D64A00DB4684 /* ViewController.m */; };
+		CE7DA3152138D64A00DB4684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7DA3132138D64A00DB4684 /* Main.storyboard */; };
+		CE7DA3172138D64C00DB4684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7DA3162138D64C00DB4684 /* Assets.xcassets */; };
+		CE7DA31A2138D64C00DB4684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7DA3182138D64C00DB4684 /* LaunchScreen.storyboard */; };
+		CE7DA31D2138D64C00DB4684 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7DA31C2138D64C00DB4684 /* main.m */; };
+		CE7DA3272138D6DE00DB4684 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7DA3262138D6DE00DB4684 /* Car.m */; };
+		CE7DA32A2138D6EC00DB4684 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7DA3292138D6EC00DB4684 /* Driver.m */; };
+		CE7DA32D2138D74600DB4684 /* Benz.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7DA32C2138D74600DB4684 /* Benz.m */; };
+		CE7DA3302138D87600DB4684 /* BMW.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7DA32F2138D87600DB4684 /* BMW.m */; };
+		CE7DA3332138D8BC00DB4684 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7DA3322138D8BC00DB4684 /* Client.m */; };
+		CE7DA3422138DC0C00DB4684 /* DependenceInversionPrincipleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7DA3412138DC0C00DB4684 /* DependenceInversionPrincipleTests.m */; };
+		CE7DA34A2138DC3500DB4684 /* DriverTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7DA3492138DC3500DB4684 /* DriverTest.m */; };
+		CE7DA34E2138DD8800DB4684 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7DA3392138DA7300DB4684 /* XCTest.framework */; };
+		CE7DA3512139105300DB4684 /* TestProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7DA3502139105300DB4684 /* TestProtocolClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE7DA3442138DC0C00DB4684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7DA3022138D64A00DB4684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7DA3092138D64A00DB4684;
+			remoteInfo = DependenceInversionPrinciple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15E4350566E4FC13290A64EF /* Pods-DependenceInversionPrincipleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DependenceInversionPrincipleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DependenceInversionPrincipleTests/Pods-DependenceInversionPrincipleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E60F2FDD83F3F2AE0CF717F /* Pods-DependenceInversionPrinciple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DependenceInversionPrinciple.release.xcconfig"; path = "Pods/Target Support Files/Pods-DependenceInversionPrinciple/Pods-DependenceInversionPrinciple.release.xcconfig"; sourceTree = "<group>"; };
+		66D4126D47E340B74D80A827 /* Pods-DependenceInversionPrincipleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DependenceInversionPrincipleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DependenceInversionPrincipleTests/Pods-DependenceInversionPrincipleTests.release.xcconfig"; sourceTree = "<group>"; };
+		844380E4F944CD323E14654F /* Pods-DependenceInversionPrinciple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DependenceInversionPrinciple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DependenceInversionPrinciple/Pods-DependenceInversionPrinciple.debug.xcconfig"; sourceTree = "<group>"; };
+		916616F045FEDAC7963F6486 /* libPods-DependenceInversionPrincipleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DependenceInversionPrincipleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3715C6ACF8DEBD0FC11D86 /* libPods-DependenceInversionPrinciple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DependenceInversionPrinciple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7DA30A2138D64A00DB4684 /* DependenceInversionPrinciple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DependenceInversionPrinciple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7DA30D2138D64A00DB4684 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE7DA30E2138D64A00DB4684 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE7DA3102138D64A00DB4684 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE7DA3112138D64A00DB4684 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE7DA3142138D64A00DB4684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE7DA3162138D64C00DB4684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE7DA3192138D64C00DB4684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE7DA31B2138D64C00DB4684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7DA31C2138D64C00DB4684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE7DA3242138D68A00DB4684 /* Interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
+		CE7DA3252138D6DE00DB4684 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		CE7DA3262138D6DE00DB4684 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		CE7DA3282138D6EC00DB4684 /* Driver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
+		CE7DA3292138D6EC00DB4684 /* Driver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
+		CE7DA32B2138D74600DB4684 /* Benz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Benz.h; sourceTree = "<group>"; };
+		CE7DA32C2138D74600DB4684 /* Benz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Benz.m; sourceTree = "<group>"; };
+		CE7DA32E2138D87600DB4684 /* BMW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMW.h; sourceTree = "<group>"; };
+		CE7DA32F2138D87600DB4684 /* BMW.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMW.m; sourceTree = "<group>"; };
+		CE7DA3312138D8BC00DB4684 /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		CE7DA3322138D8BC00DB4684 /* Client.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		CE7DA3392138DA7300DB4684 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE7DA33F2138DC0C00DB4684 /* DependenceInversionPrincipleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DependenceInversionPrincipleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7DA3412138DC0C00DB4684 /* DependenceInversionPrincipleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DependenceInversionPrincipleTests.m; sourceTree = "<group>"; };
+		CE7DA3432138DC0C00DB4684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7DA3492138DC3500DB4684 /* DriverTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DriverTest.m; sourceTree = "<group>"; };
+		CE7DA34F2139105300DB4684 /* TestProtocolClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtocolClass.h; sourceTree = "<group>"; };
+		CE7DA3502139105300DB4684 /* TestProtocolClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProtocolClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7DA3072138D64A00DB4684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BA0CEF3091A3B467ADD6FB /* libPods-DependenceInversionPrinciple.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7DA33C2138DC0C00DB4684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7DA34E2138DD8800DB4684 /* XCTest.framework in Frameworks */,
+				2452FAD91791FFDB5FA59463 /* libPods-DependenceInversionPrincipleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91C6D5759720D7A99F272ABA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				844380E4F944CD323E14654F /* Pods-DependenceInversionPrinciple.debug.xcconfig */,
+				3E60F2FDD83F3F2AE0CF717F /* Pods-DependenceInversionPrinciple.release.xcconfig */,
+				15E4350566E4FC13290A64EF /* Pods-DependenceInversionPrincipleTests.debug.xcconfig */,
+				66D4126D47E340B74D80A827 /* Pods-DependenceInversionPrincipleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE7DA3012138D64A00DB4684 = {
+			isa = PBXGroup;
+			children = (
+				CE7DA30C2138D64A00DB4684 /* DependenceInversionPrinciple */,
+				CE7DA3402138DC0C00DB4684 /* DependenceInversionPrincipleTests */,
+				CE7DA30B2138D64A00DB4684 /* Products */,
+				CE7DA3382138DA7300DB4684 /* Frameworks */,
+				91C6D5759720D7A99F272ABA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7DA30B2138D64A00DB4684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7DA30A2138D64A00DB4684 /* DependenceInversionPrinciple.app */,
+				CE7DA33F2138DC0C00DB4684 /* DependenceInversionPrincipleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7DA30C2138D64A00DB4684 /* DependenceInversionPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				CE7DA3232138D65E00DB4684 /* Class */,
+				CE7DA30D2138D64A00DB4684 /* AppDelegate.h */,
+				CE7DA30E2138D64A00DB4684 /* AppDelegate.m */,
+				CE7DA3102138D64A00DB4684 /* ViewController.h */,
+				CE7DA3112138D64A00DB4684 /* ViewController.m */,
+				CE7DA3132138D64A00DB4684 /* Main.storyboard */,
+				CE7DA3162138D64C00DB4684 /* Assets.xcassets */,
+				CE7DA3182138D64C00DB4684 /* LaunchScreen.storyboard */,
+				CE7DA31B2138D64C00DB4684 /* Info.plist */,
+				CE7DA31C2138D64C00DB4684 /* main.m */,
+			);
+			path = DependenceInversionPrinciple;
+			sourceTree = "<group>";
+		};
+		CE7DA3232138D65E00DB4684 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CE7DA3242138D68A00DB4684 /* Interface.h */,
+				CE7DA32B2138D74600DB4684 /* Benz.h */,
+				CE7DA32C2138D74600DB4684 /* Benz.m */,
+				CE7DA3252138D6DE00DB4684 /* Car.h */,
+				CE7DA3262138D6DE00DB4684 /* Car.m */,
+				CE7DA3282138D6EC00DB4684 /* Driver.h */,
+				CE7DA3292138D6EC00DB4684 /* Driver.m */,
+				CE7DA32E2138D87600DB4684 /* BMW.h */,
+				CE7DA32F2138D87600DB4684 /* BMW.m */,
+				CE7DA3312138D8BC00DB4684 /* Client.h */,
+				CE7DA3322138D8BC00DB4684 /* Client.m */,
+				CE7DA34F2139105300DB4684 /* TestProtocolClass.h */,
+				CE7DA3502139105300DB4684 /* TestProtocolClass.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		CE7DA3382138DA7300DB4684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7DA3392138DA7300DB4684 /* XCTest.framework */,
+				BB3715C6ACF8DEBD0FC11D86 /* libPods-DependenceInversionPrinciple.a */,
+				916616F045FEDAC7963F6486 /* libPods-DependenceInversionPrincipleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE7DA3402138DC0C00DB4684 /* DependenceInversionPrincipleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE7DA3412138DC0C00DB4684 /* DependenceInversionPrincipleTests.m */,
+				CE7DA3492138DC3500DB4684 /* DriverTest.m */,
+				CE7DA3432138DC0C00DB4684 /* Info.plist */,
+			);
+			path = DependenceInversionPrincipleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7DA3092138D64A00DB4684 /* DependenceInversionPrinciple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7DA3202138D64C00DB4684 /* Build configuration list for PBXNativeTarget "DependenceInversionPrinciple" */;
+			buildPhases = (
+				59BC5D15D3328EBCB5B7EE10 /* [CP] Check Pods Manifest.lock */,
+				CE7DA3062138D64A00DB4684 /* Sources */,
+				CE7DA3072138D64A00DB4684 /* Frameworks */,
+				CE7DA3082138D64A00DB4684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DependenceInversionPrinciple;
+			productName = DependenceInversionPrinciple;
+			productReference = CE7DA30A2138D64A00DB4684 /* DependenceInversionPrinciple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE7DA33E2138DC0C00DB4684 /* DependenceInversionPrincipleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7DA3462138DC0C00DB4684 /* Build configuration list for PBXNativeTarget "DependenceInversionPrincipleTests" */;
+			buildPhases = (
+				43C574A714EC1A4DB93C7DF7 /* [CP] Check Pods Manifest.lock */,
+				CE7DA33B2138DC0C00DB4684 /* Sources */,
+				CE7DA33C2138DC0C00DB4684 /* Frameworks */,
+				CE7DA33D2138DC0C00DB4684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7DA3452138DC0C00DB4684 /* PBXTargetDependency */,
+			);
+			name = DependenceInversionPrincipleTests;
+			productName = DependenceInversionPrincipleTests;
+			productReference = CE7DA33F2138DC0C00DB4684 /* DependenceInversionPrincipleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7DA3022138D64A00DB4684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CE7DA3092138D64A00DB4684 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					CE7DA33E2138DC0C00DB4684 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CE7DA3092138D64A00DB4684;
+					};
+				};
+			};
+			buildConfigurationList = CE7DA3052138D64A00DB4684 /* Build configuration list for PBXProject "DependenceInversionPrinciple" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE7DA3012138D64A00DB4684;
+			productRefGroup = CE7DA30B2138D64A00DB4684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7DA3092138D64A00DB4684 /* DependenceInversionPrinciple */,
+				CE7DA33E2138DC0C00DB4684 /* DependenceInversionPrincipleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7DA3082138D64A00DB4684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7DA31A2138D64C00DB4684 /* LaunchScreen.storyboard in Resources */,
+				CE7DA3172138D64C00DB4684 /* Assets.xcassets in Resources */,
+				CE7DA3152138D64A00DB4684 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7DA33D2138DC0C00DB4684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43C574A714EC1A4DB93C7DF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DependenceInversionPrincipleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59BC5D15D3328EBCB5B7EE10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DependenceInversionPrinciple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7DA3062138D64A00DB4684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7DA3122138D64A00DB4684 /* ViewController.m in Sources */,
+				CE7DA3512139105300DB4684 /* TestProtocolClass.m in Sources */,
+				CE7DA31D2138D64C00DB4684 /* main.m in Sources */,
+				CE7DA3332138D8BC00DB4684 /* Client.m in Sources */,
+				CE7DA3302138D87600DB4684 /* BMW.m in Sources */,
+				CE7DA3272138D6DE00DB4684 /* Car.m in Sources */,
+				CE7DA30F2138D64A00DB4684 /* AppDelegate.m in Sources */,
+				CE7DA32D2138D74600DB4684 /* Benz.m in Sources */,
+				CE7DA32A2138D6EC00DB4684 /* Driver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7DA33B2138DC0C00DB4684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7DA3422138DC0C00DB4684 /* DependenceInversionPrincipleTests.m in Sources */,
+				CE7DA34A2138DC3500DB4684 /* DriverTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE7DA3452138DC0C00DB4684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7DA3092138D64A00DB4684 /* DependenceInversionPrinciple */;
+			targetProxy = CE7DA3442138DC0C00DB4684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE7DA3132138D64A00DB4684 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7DA3142138D64A00DB4684 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE7DA3182138D64C00DB4684 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7DA3192138D64C00DB4684 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE7DA31E2138D64C00DB4684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE7DA31F2138D64C00DB4684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7DA3212138D64C00DB4684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844380E4F944CD323E14654F /* Pods-DependenceInversionPrinciple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J42285BL9;
+				INFOPLIST_FILE = DependenceInversionPrinciple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.demo4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE7DA3222138D64C00DB4684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E60F2FDD83F3F2AE0CF717F /* Pods-DependenceInversionPrinciple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J42285BL9;
+				INFOPLIST_FILE = DependenceInversionPrinciple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.demo4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE7DA3472138DC0C00DB4684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E4350566E4FC13290A64EF /* Pods-DependenceInversionPrincipleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DependenceInversionPrincipleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.demo4.DependenceInversionPrincipleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DependenceInversionPrinciple.app/DependenceInversionPrinciple";
+			};
+			name = Debug;
+		};
+		CE7DA3482138DC0C00DB4684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D4126D47E340B74D80A827 /* Pods-DependenceInversionPrincipleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DependenceInversionPrincipleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.demo4.DependenceInversionPrincipleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DependenceInversionPrinciple.app/DependenceInversionPrinciple";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7DA3052138D64A00DB4684 /* Build configuration list for PBXProject "DependenceInversionPrinciple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7DA31E2138D64C00DB4684 /* Debug */,
+				CE7DA31F2138D64C00DB4684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7DA3202138D64C00DB4684 /* Build configuration list for PBXNativeTarget "DependenceInversionPrinciple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7DA3212138D64C00DB4684 /* Debug */,
+				CE7DA3222138D64C00DB4684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7DA3462138DC0C00DB4684 /* Build configuration list for PBXNativeTarget "DependenceInversionPrincipleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7DA3472138DC0C00DB4684 /* Debug */,
+				CE7DA3482138DC0C00DB4684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE7DA3022138D64A00DB4684 /* Project object */;
+}

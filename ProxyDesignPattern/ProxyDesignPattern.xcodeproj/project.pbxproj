@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBE8C072220050B000575EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C062220050B000575EA /* AppDelegate.m */; };
+		CEBE8C0A2220050B000575EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C092220050B000575EA /* ViewController.m */; };
+		CEBE8C0D2220050B000575EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8C0B2220050B000575EA /* Main.storyboard */; };
+		CEBE8C0F2220050D000575EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8C0E2220050D000575EA /* Assets.xcassets */; };
+		CEBE8C122220050D000575EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8C102220050D000575EA /* LaunchScreen.storyboard */; };
+		CEBE8C152220050D000575EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C142220050D000575EA /* main.m */; };
+		CEBE8C1F222005BD000575EA /* GamePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C1E222005BD000575EA /* GamePlayer.m */; };
+		CEBE8C22222006EA000575EA /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C21222006EA000575EA /* Client.m */; };
+		CEBE8C2A222007D4000575EA /* ProxyDesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C29222007D4000575EA /* ProxyDesignPatternTests.m */; };
+		CEBE8C33222008BB000575EA /* GamePlayerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C32222008BB000575EA /* GamePlayerProxy.m */; };
+		CEBE8C3722200B1E000575EA /* RealSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C3622200B1E000575EA /* RealSubject.m */; };
+		CEBE8C3A22200BA1000575EA /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C3922200BA1000575EA /* Proxy.m */; };
+		CEBE8C3D22238BE9000575EA /* GamePlayIH.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C3C22238BE9000575EA /* GamePlayIH.m */; };
+		CEBE8C4A22238F31000575EA /* NSObject+ProxyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C4922238F31000575EA /* NSObject+ProxyExtension.m */; };
+		CEBE8C572223BD1C000575EA /* HWProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C562223BD1C000575EA /* HWProxy.m */; };
+		CEBE8C5A2223CB40000575EA /* MyInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C592223CB40000575EA /* MyInvocationHandler.m */; };
+		CEBE8C5E2223CBDA000575EA /* DynamicProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C5D2223CBDA000575EA /* DynamicProxy.m */; };
+		CEBE8C622223CC3E000575EA /* BeforeAdvice.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C612223CC3E000575EA /* BeforeAdvice.m */; };
+		CEBE8C652223D015000575EA /* SubjectDynamicProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8C642223D015000575EA /* SubjectDynamicProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEBE8C2C222007D4000575EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBE8BFA2220050B000575EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBE8C012220050B000575EA;
+			remoteInfo = ProxyDesignPattern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEBE8C022220050B000575EA /* ProxyDesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProxyDesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBE8C052220050B000575EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEBE8C062220050B000575EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEBE8C082220050B000575EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEBE8C092220050B000575EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEBE8C0C2220050B000575EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBE8C0E2220050D000575EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBE8C112220050D000575EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBE8C132220050D000575EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBE8C142220050D000575EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEBE8C1C2220053C000575EA /* Interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
+		CEBE8C1D222005BD000575EA /* GamePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePlayer.h; sourceTree = "<group>"; };
+		CEBE8C1E222005BD000575EA /* GamePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePlayer.m; sourceTree = "<group>"; };
+		CEBE8C20222006EA000575EA /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		CEBE8C21222006EA000575EA /* Client.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		CEBE8C27222007D4000575EA /* ProxyDesignPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyDesignPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBE8C29222007D4000575EA /* ProxyDesignPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyDesignPatternTests.m; sourceTree = "<group>"; };
+		CEBE8C2B222007D4000575EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBE8C31222008BB000575EA /* GamePlayerProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePlayerProxy.h; sourceTree = "<group>"; };
+		CEBE8C32222008BB000575EA /* GamePlayerProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePlayerProxy.m; sourceTree = "<group>"; };
+		CEBE8C3422200AFA000575EA /* Subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		CEBE8C3522200B1E000575EA /* RealSubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealSubject.h; sourceTree = "<group>"; };
+		CEBE8C3622200B1E000575EA /* RealSubject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealSubject.m; sourceTree = "<group>"; };
+		CEBE8C3822200BA1000575EA /* Proxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Proxy.h; sourceTree = "<group>"; };
+		CEBE8C3922200BA1000575EA /* Proxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Proxy.m; sourceTree = "<group>"; };
+		CEBE8C3B22238BE9000575EA /* GamePlayIH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePlayIH.h; sourceTree = "<group>"; };
+		CEBE8C3C22238BE9000575EA /* GamePlayIH.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePlayIH.m; sourceTree = "<group>"; };
+		CEBE8C4822238F31000575EA /* NSObject+ProxyExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ProxyExtension.h"; sourceTree = "<group>"; };
+		CEBE8C4922238F31000575EA /* NSObject+ProxyExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ProxyExtension.m"; sourceTree = "<group>"; };
+		CEBE8C552223BD1C000575EA /* HWProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWProxy.h; sourceTree = "<group>"; };
+		CEBE8C562223BD1C000575EA /* HWProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWProxy.m; sourceTree = "<group>"; };
+		CEBE8C582223CB40000575EA /* MyInvocationHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyInvocationHandler.h; sourceTree = "<group>"; };
+		CEBE8C592223CB40000575EA /* MyInvocationHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInvocationHandler.m; sourceTree = "<group>"; };
+		CEBE8C5B2223CB61000575EA /* InvocationHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvocationHandler.h; sourceTree = "<group>"; };
+		CEBE8C5C2223CBDA000575EA /* DynamicProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicProxy.h; sourceTree = "<group>"; };
+		CEBE8C5D2223CBDA000575EA /* DynamicProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicProxy.m; sourceTree = "<group>"; };
+		CEBE8C5F2223CBFD000575EA /* IAdvice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAdvice.h; sourceTree = "<group>"; };
+		CEBE8C602223CC3E000575EA /* BeforeAdvice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeforeAdvice.h; sourceTree = "<group>"; };
+		CEBE8C612223CC3E000575EA /* BeforeAdvice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeforeAdvice.m; sourceTree = "<group>"; };
+		CEBE8C632223D015000575EA /* SubjectDynamicProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectDynamicProxy.h; sourceTree = "<group>"; };
+		CEBE8C642223D015000575EA /* SubjectDynamicProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectDynamicProxy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBE8BFF2220050B000575EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBE8C24222007D4000575EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBE8BF92220050B000575EA = {
+			isa = PBXGroup;
+			children = (
+				CEBE8C042220050B000575EA /* ProxyDesignPattern */,
+				CEBE8C28222007D4000575EA /* ProxyDesignPatternTests */,
+				CEBE8C032220050B000575EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBE8C032220050B000575EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE8C022220050B000575EA /* ProxyDesignPattern.app */,
+				CEBE8C27222007D4000575EA /* ProxyDesignPatternTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBE8C042220050B000575EA /* ProxyDesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE8C1B22200524000575EA /* Classes */,
+				CEBE8C052220050B000575EA /* AppDelegate.h */,
+				CEBE8C062220050B000575EA /* AppDelegate.m */,
+				CEBE8C082220050B000575EA /* ViewController.h */,
+				CEBE8C092220050B000575EA /* ViewController.m */,
+				CEBE8C0B2220050B000575EA /* Main.storyboard */,
+				CEBE8C0E2220050D000575EA /* Assets.xcassets */,
+				CEBE8C102220050D000575EA /* LaunchScreen.storyboard */,
+				CEBE8C132220050D000575EA /* Info.plist */,
+				CEBE8C142220050D000575EA /* main.m */,
+			);
+			path = ProxyDesignPattern;
+			sourceTree = "<group>";
+		};
+		CEBE8C1B22200524000575EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE8C1C2220053C000575EA /* Interface.h */,
+				CEBE8C1D222005BD000575EA /* GamePlayer.h */,
+				CEBE8C1E222005BD000575EA /* GamePlayer.m */,
+				CEBE8C3B22238BE9000575EA /* GamePlayIH.h */,
+				CEBE8C3C22238BE9000575EA /* GamePlayIH.m */,
+				CEBE8C31222008BB000575EA /* GamePlayerProxy.h */,
+				CEBE8C32222008BB000575EA /* GamePlayerProxy.m */,
+				CEBE8C20222006EA000575EA /* Client.h */,
+				CEBE8C21222006EA000575EA /* Client.m */,
+				CEBE8C3422200AFA000575EA /* Subject.h */,
+				CEBE8C5B2223CB61000575EA /* InvocationHandler.h */,
+				CEBE8C5F2223CBFD000575EA /* IAdvice.h */,
+				CEBE8C3522200B1E000575EA /* RealSubject.h */,
+				CEBE8C3622200B1E000575EA /* RealSubject.m */,
+				CEBE8C582223CB40000575EA /* MyInvocationHandler.h */,
+				CEBE8C592223CB40000575EA /* MyInvocationHandler.m */,
+				CEBE8C602223CC3E000575EA /* BeforeAdvice.h */,
+				CEBE8C612223CC3E000575EA /* BeforeAdvice.m */,
+				CEBE8C5C2223CBDA000575EA /* DynamicProxy.h */,
+				CEBE8C5D2223CBDA000575EA /* DynamicProxy.m */,
+				CEBE8C632223D015000575EA /* SubjectDynamicProxy.h */,
+				CEBE8C642223D015000575EA /* SubjectDynamicProxy.m */,
+				CEBE8C3822200BA1000575EA /* Proxy.h */,
+				CEBE8C3922200BA1000575EA /* Proxy.m */,
+				CEBE8C4822238F31000575EA /* NSObject+ProxyExtension.h */,
+				CEBE8C4922238F31000575EA /* NSObject+ProxyExtension.m */,
+				CEBE8C552223BD1C000575EA /* HWProxy.h */,
+				CEBE8C562223BD1C000575EA /* HWProxy.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEBE8C28222007D4000575EA /* ProxyDesignPatternTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE8C29222007D4000575EA /* ProxyDesignPatternTests.m */,
+				CEBE8C2B222007D4000575EA /* Info.plist */,
+			);
+			path = ProxyDesignPatternTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBE8C012220050B000575EA /* ProxyDesignPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBE8C182220050D000575EA /* Build configuration list for PBXNativeTarget "ProxyDesignPattern" */;
+			buildPhases = (
+				CEBE8BFE2220050B000575EA /* Sources */,
+				CEBE8BFF2220050B000575EA /* Frameworks */,
+				CEBE8C002220050B000575EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProxyDesignPattern;
+			productName = ProxyDesignPattern;
+			productReference = CEBE8C022220050B000575EA /* ProxyDesignPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEBE8C26222007D4000575EA /* ProxyDesignPatternTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBE8C2E222007D4000575EA /* Build configuration list for PBXNativeTarget "ProxyDesignPatternTests" */;
+			buildPhases = (
+				CEBE8C23222007D4000575EA /* Sources */,
+				CEBE8C24222007D4000575EA /* Frameworks */,
+				CEBE8C25222007D4000575EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBE8C2D222007D4000575EA /* PBXTargetDependency */,
+			);
+			name = ProxyDesignPatternTests;
+			productName = ProxyDesignPatternTests;
+			productReference = CEBE8C27222007D4000575EA /* ProxyDesignPatternTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBE8BFA2220050B000575EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CEBE8C012220050B000575EA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CEBE8C26222007D4000575EA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CEBE8C012220050B000575EA;
+					};
+				};
+			};
+			buildConfigurationList = CEBE8BFD2220050B000575EA /* Build configuration list for PBXProject "ProxyDesignPattern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBE8BF92220050B000575EA;
+			productRefGroup = CEBE8C032220050B000575EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBE8C012220050B000575EA /* ProxyDesignPattern */,
+				CEBE8C26222007D4000575EA /* ProxyDesignPatternTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBE8C002220050B000575EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBE8C122220050D000575EA /* LaunchScreen.storyboard in Resources */,
+				CEBE8C0F2220050D000575EA /* Assets.xcassets in Resources */,
+				CEBE8C0D2220050B000575EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBE8C25222007D4000575EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBE8BFE2220050B000575EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBE8C0A2220050B000575EA /* ViewController.m in Sources */,
+				CEBE8C652223D015000575EA /* SubjectDynamicProxy.m in Sources */,
+				CEBE8C3722200B1E000575EA /* RealSubject.m in Sources */,
+				CEBE8C4A22238F31000575EA /* NSObject+ProxyExtension.m in Sources */,
+				CEBE8C33222008BB000575EA /* GamePlayerProxy.m in Sources */,
+				CEBE8C5E2223CBDA000575EA /* DynamicProxy.m in Sources */,
+				CEBE8C152220050D000575EA /* main.m in Sources */,
+				CEBE8C3D22238BE9000575EA /* GamePlayIH.m in Sources */,
+				CEBE8C5A2223CB40000575EA /* MyInvocationHandler.m in Sources */,
+				CEBE8C622223CC3E000575EA /* BeforeAdvice.m in Sources */,
+				CEBE8C3A22200BA1000575EA /* Proxy.m in Sources */,
+				CEBE8C1F222005BD000575EA /* GamePlayer.m in Sources */,
+				CEBE8C072220050B000575EA /* AppDelegate.m in Sources */,
+				CEBE8C572223BD1C000575EA /* HWProxy.m in Sources */,
+				CEBE8C22222006EA000575EA /* Client.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBE8C23222007D4000575EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBE8C2A222007D4000575EA /* ProxyDesignPatternTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEBE8C2D222007D4000575EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBE8C012220050B000575EA /* ProxyDesignPattern */;
+			targetProxy = CEBE8C2C222007D4000575EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEBE8C0B2220050B000575EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBE8C0C2220050B000575EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBE8C102220050D000575EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBE8C112220050D000575EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBE8C162220050D000575EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEBE8C172220050D000575EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBE8C192220050D000575EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				INFOPLIST_FILE = ProxyDesignPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.ProxyDesignPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBE8C1A2220050D000575EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				INFOPLIST_FILE = ProxyDesignPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.ProxyDesignPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEBE8C2F222007D4000575EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				INFOPLIST_FILE = ProxyDesignPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.ProxyDesignPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProxyDesignPattern.app/ProxyDesignPattern";
+			};
+			name = Debug;
+		};
+		CEBE8C30222007D4000575EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				INFOPLIST_FILE = ProxyDesignPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.ProxyDesignPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProxyDesignPattern.app/ProxyDesignPattern";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBE8BFD2220050B000575EA /* Build configuration list for PBXProject "ProxyDesignPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBE8C162220050D000575EA /* Debug */,
+				CEBE8C172220050D000575EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBE8C182220050D000575EA /* Build configuration list for PBXNativeTarget "ProxyDesignPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBE8C192220050D000575EA /* Debug */,
+				CEBE8C1A2220050D000575EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBE8C2E222007D4000575EA /* Build configuration list for PBXNativeTarget "ProxyDesignPatternTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBE8C2F222007D4000575EA /* Debug */,
+				CEBE8C30222007D4000575EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBE8BFA2220050B000575EA /* Project object */;
+}

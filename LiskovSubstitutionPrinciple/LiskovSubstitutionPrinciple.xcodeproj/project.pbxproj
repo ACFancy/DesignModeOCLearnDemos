@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDD0CAD213815840056C105 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD0CAC213815840056C105 /* AppDelegate.m */; };
+		CEDD0CB0213815840056C105 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD0CAF213815840056C105 /* ViewController.m */; };
+		CEDD0CB3213815840056C105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDD0CB1213815840056C105 /* Main.storyboard */; };
+		CEDD0CB5213815840056C105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDD0CB4213815840056C105 /* Assets.xcassets */; };
+		CEDD0CB8213815840056C105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDD0CB6213815840056C105 /* LaunchScreen.storyboard */; };
+		CEDD0CBB213815840056C105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD0CBA213815840056C105 /* main.m */; };
+		CEDD0CC5213815F60056C105 /* Handgun.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD0CC4213815F60056C105 /* Handgun.m */; };
+		CEDD0CC8213816540056C105 /* Rifle.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD0CC7213816540056C105 /* Rifle.m */; };
+		CEDD0CCB2138169C0056C105 /* MachineGun.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD0CCA2138169C0056C105 /* MachineGun.m */; };
+		CEDD0CCE2138176F0056C105 /* Soldier.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD0CCD2138176F0056C105 /* Soldier.m */; };
+		CEDD0CD1213818560056C105 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD0CD0213818560056C105 /* Client.m */; };
+		CEDD0CD421381AAD0056C105 /* AUG.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD0CD321381AAD0056C105 /* AUG.m */; };
+		CEDD0CD721381B180056C105 /* Snipper.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD0CD621381B180056C105 /* Snipper.m */; };
+		CEDD0CDA21381CEA0056C105 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD0CD921381CEA0056C105 /* Father.m */; };
+		CEDD0CDD21381D7D0056C105 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD0CDC21381D7D0056C105 /* Son.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEDD0CA8213815840056C105 /* LiskovSubstitutionPrinciple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiskovSubstitutionPrinciple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDD0CAB213815840056C105 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEDD0CAC213815840056C105 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEDD0CAE213815840056C105 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEDD0CAF213815840056C105 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEDD0CB2213815840056C105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDD0CB4213815840056C105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDD0CB7213815840056C105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDD0CB9213815840056C105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDD0CBA213815840056C105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEDD0CC2213815D50056C105 /* AbstractGun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractGun.h; sourceTree = "<group>"; };
+		CEDD0CC3213815F60056C105 /* Handgun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handgun.h; sourceTree = "<group>"; };
+		CEDD0CC4213815F60056C105 /* Handgun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handgun.m; sourceTree = "<group>"; };
+		CEDD0CC6213816540056C105 /* Rifle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rifle.h; sourceTree = "<group>"; };
+		CEDD0CC7213816540056C105 /* Rifle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rifle.m; sourceTree = "<group>"; };
+		CEDD0CC92138169C0056C105 /* MachineGun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MachineGun.h; sourceTree = "<group>"; };
+		CEDD0CCA2138169C0056C105 /* MachineGun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MachineGun.m; sourceTree = "<group>"; };
+		CEDD0CCC2138176F0056C105 /* Soldier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soldier.h; sourceTree = "<group>"; };
+		CEDD0CCD2138176F0056C105 /* Soldier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soldier.m; sourceTree = "<group>"; };
+		CEDD0CCF213818560056C105 /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		CEDD0CD0213818560056C105 /* Client.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		CEDD0CD221381AAD0056C105 /* AUG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUG.h; sourceTree = "<group>"; };
+		CEDD0CD321381AAD0056C105 /* AUG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUG.m; sourceTree = "<group>"; };
+		CEDD0CD521381B180056C105 /* Snipper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Snipper.h; sourceTree = "<group>"; };
+		CEDD0CD621381B180056C105 /* Snipper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snipper.m; sourceTree = "<group>"; };
+		CEDD0CD821381CEA0056C105 /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		CEDD0CD921381CEA0056C105 /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		CEDD0CDB21381D7D0056C105 /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		CEDD0CDC21381D7D0056C105 /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDD0CA5213815840056C105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDD0C9F213815840056C105 = {
+			isa = PBXGroup;
+			children = (
+				CEDD0CAA213815840056C105 /* LiskovSubstitutionPrinciple */,
+				CEDD0CA9213815840056C105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDD0CA9213815840056C105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD0CA8213815840056C105 /* LiskovSubstitutionPrinciple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDD0CAA213815840056C105 /* LiskovSubstitutionPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD0CC12138159B0056C105 /* Class */,
+				CEDD0CAB213815840056C105 /* AppDelegate.h */,
+				CEDD0CAC213815840056C105 /* AppDelegate.m */,
+				CEDD0CAE213815840056C105 /* ViewController.h */,
+				CEDD0CAF213815840056C105 /* ViewController.m */,
+				CEDD0CB1213815840056C105 /* Main.storyboard */,
+				CEDD0CB4213815840056C105 /* Assets.xcassets */,
+				CEDD0CB6213815840056C105 /* LaunchScreen.storyboard */,
+				CEDD0CB9213815840056C105 /* Info.plist */,
+				CEDD0CBA213815840056C105 /* main.m */,
+			);
+			path = LiskovSubstitutionPrinciple;
+			sourceTree = "<group>";
+		};
+		CEDD0CC12138159B0056C105 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD0CC2213815D50056C105 /* AbstractGun.h */,
+				CEDD0CC3213815F60056C105 /* Handgun.h */,
+				CEDD0CC4213815F60056C105 /* Handgun.m */,
+				CEDD0CC6213816540056C105 /* Rifle.h */,
+				CEDD0CC7213816540056C105 /* Rifle.m */,
+				CEDD0CC92138169C0056C105 /* MachineGun.h */,
+				CEDD0CCA2138169C0056C105 /* MachineGun.m */,
+				CEDD0CCC2138176F0056C105 /* Soldier.h */,
+				CEDD0CCD2138176F0056C105 /* Soldier.m */,
+				CEDD0CD521381B180056C105 /* Snipper.h */,
+				CEDD0CD621381B180056C105 /* Snipper.m */,
+				CEDD0CCF213818560056C105 /* Client.h */,
+				CEDD0CD0213818560056C105 /* Client.m */,
+				CEDD0CD221381AAD0056C105 /* AUG.h */,
+				CEDD0CD321381AAD0056C105 /* AUG.m */,
+				CEDD0CD821381CEA0056C105 /* Father.h */,
+				CEDD0CD921381CEA0056C105 /* Father.m */,
+				CEDD0CDB21381D7D0056C105 /* Son.h */,
+				CEDD0CDC21381D7D0056C105 /* Son.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDD0CA7213815840056C105 /* LiskovSubstitutionPrinciple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDD0CBE213815840056C105 /* Build configuration list for PBXNativeTarget "LiskovSubstitutionPrinciple" */;
+			buildPhases = (
+				CEDD0CA4213815840056C105 /* Sources */,
+				CEDD0CA5213815840056C105 /* Frameworks */,
+				CEDD0CA6213815840056C105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiskovSubstitutionPrinciple;
+			productName = LiskovSubstitutionPrinciple;
+			productReference = CEDD0CA8213815840056C105 /* LiskovSubstitutionPrinciple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDD0CA0213815840056C105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CEDD0CA7213815840056C105 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = CEDD0CA3213815840056C105 /* Build configuration list for PBXProject "LiskovSubstitutionPrinciple" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDD0C9F213815840056C105;
+			productRefGroup = CEDD0CA9213815840056C105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDD0CA7213815840056C105 /* LiskovSubstitutionPrinciple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDD0CA6213815840056C105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDD0CB8213815840056C105 /* LaunchScreen.storyboard in Resources */,
+				CEDD0CB5213815840056C105 /* Assets.xcassets in Resources */,
+				CEDD0CB3213815840056C105 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDD0CA4213815840056C105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDD0CDD21381D7D0056C105 /* Son.m in Sources */,
+				CEDD0CD421381AAD0056C105 /* AUG.m in Sources */,
+				CEDD0CB0213815840056C105 /* ViewController.m in Sources */,
+				CEDD0CC8213816540056C105 /* Rifle.m in Sources */,
+				CEDD0CD1213818560056C105 /* Client.m in Sources */,
+				CEDD0CC5213815F60056C105 /* Handgun.m in Sources */,
+				CEDD0CD721381B180056C105 /* Snipper.m in Sources */,
+				CEDD0CBB213815840056C105 /* main.m in Sources */,
+				CEDD0CCB2138169C0056C105 /* MachineGun.m in Sources */,
+				CEDD0CAD213815840056C105 /* AppDelegate.m in Sources */,
+				CEDD0CDA21381CEA0056C105 /* Father.m in Sources */,
+				CEDD0CCE2138176F0056C105 /* Soldier.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEDD0CB1213815840056C105 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDD0CB2213815840056C105 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDD0CB6213815840056C105 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDD0CB7213815840056C105 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDD0CBC213815840056C105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEDD0CBD213815840056C105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDD0CBF213815840056C105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J42285BL9;
+				INFOPLIST_FILE = LiskovSubstitutionPrinciple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.demo4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDD0CC0213815840056C105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J42285BL9;
+				INFOPLIST_FILE = LiskovSubstitutionPrinciple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.demo4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDD0CA3213815840056C105 /* Build configuration list for PBXProject "LiskovSubstitutionPrinciple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDD0CBC213815840056C105 /* Debug */,
+				CEDD0CBD213815840056C105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDD0CBE213815840056C105 /* Build configuration list for PBXNativeTarget "LiskovSubstitutionPrinciple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDD0CBF213815840056C105 /* Debug */,
+				CEDD0CC0213815840056C105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDD0CA0213815840056C105 /* Project object */;
+}
