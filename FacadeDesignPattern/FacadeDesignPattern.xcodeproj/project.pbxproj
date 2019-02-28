@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE69BA352227F04A00876059 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BA342227F04A00876059 /* AppDelegate.m */; };
+		CE69BA382227F04A00876059 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BA372227F04A00876059 /* ViewController.m */; };
+		CE69BA3B2227F04A00876059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE69BA392227F04A00876059 /* Main.storyboard */; };
+		CE69BA3D2227F04C00876059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE69BA3C2227F04C00876059 /* Assets.xcassets */; };
+		CE69BA402227F04C00876059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE69BA3E2227F04C00876059 /* LaunchScreen.storyboard */; };
+		CE69BA432227F04C00876059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BA422227F04C00876059 /* main.m */; };
+		CE69BA4D2227F04C00876059 /* FacadeDesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BA4C2227F04C00876059 /* FacadeDesignPatternTests.m */; };
+		CE69BA5B2227F10C00876059 /* LetterProcessImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BA5A2227F10C00876059 /* LetterProcessImpl.m */; };
+		CE69BA5E2227F17400876059 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BA5D2227F17400876059 /* Client.m */; };
+		CE69BA612227F2D000876059 /* ModenPostOffice.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BA602227F2D000876059 /* ModenPostOffice.m */; };
+		CE69BA642227F40B00876059 /* Police.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BA632227F40B00876059 /* Police.m */; };
+		CE69BA672227F5EB00876059 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BA662227F5EB00876059 /* ClassA.m */; };
+		CE69BA6A2227F61100876059 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BA692227F61100876059 /* ClassB.m */; };
+		CE69BA6D2227F62D00876059 /* ClassC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BA6C2227F62D00876059 /* ClassC.m */; };
+		CE69BA702227F65B00876059 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BA6F2227F65B00876059 /* Facade.m */; };
+		CE69BA732227F85A00876059 /* Facade2.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BA722227F85A00876059 /* Facade2.m */; };
+		CE69BA762227F97B00876059 /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BA752227F97B00876059 /* Context.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE69BA492227F04C00876059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE69BA282227F04A00876059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE69BA2F2227F04A00876059;
+			remoteInfo = FacadeDesignPattern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE69BA302227F04A00876059 /* FacadeDesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacadeDesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE69BA332227F04A00876059 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE69BA342227F04A00876059 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE69BA362227F04A00876059 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE69BA372227F04A00876059 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE69BA3A2227F04A00876059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE69BA3C2227F04C00876059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE69BA3F2227F04C00876059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE69BA412227F04C00876059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE69BA422227F04C00876059 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE69BA482227F04C00876059 /* FacadeDesignPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacadeDesignPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE69BA4C2227F04C00876059 /* FacadeDesignPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadeDesignPatternTests.m; sourceTree = "<group>"; };
+		CE69BA4E2227F04C00876059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE69BA582227F08400876059 /* IletterProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IletterProcess.h; sourceTree = "<group>"; };
+		CE69BA592227F10C00876059 /* LetterProcessImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LetterProcessImpl.h; sourceTree = "<group>"; };
+		CE69BA5A2227F10C00876059 /* LetterProcessImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetterProcessImpl.m; sourceTree = "<group>"; };
+		CE69BA5C2227F17400876059 /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		CE69BA5D2227F17400876059 /* Client.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		CE69BA5F2227F2D000876059 /* ModenPostOffice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModenPostOffice.h; sourceTree = "<group>"; };
+		CE69BA602227F2D000876059 /* ModenPostOffice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModenPostOffice.m; sourceTree = "<group>"; };
+		CE69BA622227F40B00876059 /* Police.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Police.h; sourceTree = "<group>"; };
+		CE69BA632227F40B00876059 /* Police.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Police.m; sourceTree = "<group>"; };
+		CE69BA652227F5EB00876059 /* ClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		CE69BA662227F5EB00876059 /* ClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		CE69BA682227F61100876059 /* ClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		CE69BA692227F61100876059 /* ClassB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		CE69BA6B2227F62D00876059 /* ClassC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassC.h; sourceTree = "<group>"; };
+		CE69BA6C2227F62D00876059 /* ClassC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassC.m; sourceTree = "<group>"; };
+		CE69BA6E2227F65B00876059 /* Facade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
+		CE69BA6F2227F65B00876059 /* Facade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
+		CE69BA712227F85A00876059 /* Facade2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Facade2.h; sourceTree = "<group>"; };
+		CE69BA722227F85A00876059 /* Facade2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Facade2.m; sourceTree = "<group>"; };
+		CE69BA742227F97B00876059 /* Context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		CE69BA752227F97B00876059 /* Context.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE69BA2D2227F04A00876059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE69BA452227F04C00876059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE69BA272227F04A00876059 = {
+			isa = PBXGroup;
+			children = (
+				CE69BA322227F04A00876059 /* FacadeDesignPattern */,
+				CE69BA4B2227F04C00876059 /* FacadeDesignPatternTests */,
+				CE69BA312227F04A00876059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE69BA312227F04A00876059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE69BA302227F04A00876059 /* FacadeDesignPattern.app */,
+				CE69BA482227F04C00876059 /* FacadeDesignPatternTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE69BA322227F04A00876059 /* FacadeDesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				CE69BA572227F05200876059 /* Classes */,
+				CE69BA332227F04A00876059 /* AppDelegate.h */,
+				CE69BA342227F04A00876059 /* AppDelegate.m */,
+				CE69BA362227F04A00876059 /* ViewController.h */,
+				CE69BA372227F04A00876059 /* ViewController.m */,
+				CE69BA392227F04A00876059 /* Main.storyboard */,
+				CE69BA3C2227F04C00876059 /* Assets.xcassets */,
+				CE69BA3E2227F04C00876059 /* LaunchScreen.storyboard */,
+				CE69BA412227F04C00876059 /* Info.plist */,
+				CE69BA422227F04C00876059 /* main.m */,
+			);
+			path = FacadeDesignPattern;
+			sourceTree = "<group>";
+		};
+		CE69BA4B2227F04C00876059 /* FacadeDesignPatternTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE69BA4C2227F04C00876059 /* FacadeDesignPatternTests.m */,
+				CE69BA4E2227F04C00876059 /* Info.plist */,
+			);
+			path = FacadeDesignPatternTests;
+			sourceTree = "<group>";
+		};
+		CE69BA572227F05200876059 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE69BA582227F08400876059 /* IletterProcess.h */,
+				CE69BA592227F10C00876059 /* LetterProcessImpl.h */,
+				CE69BA5A2227F10C00876059 /* LetterProcessImpl.m */,
+				CE69BA5F2227F2D000876059 /* ModenPostOffice.h */,
+				CE69BA602227F2D000876059 /* ModenPostOffice.m */,
+				CE69BA622227F40B00876059 /* Police.h */,
+				CE69BA632227F40B00876059 /* Police.m */,
+				CE69BA652227F5EB00876059 /* ClassA.h */,
+				CE69BA662227F5EB00876059 /* ClassA.m */,
+				CE69BA682227F61100876059 /* ClassB.h */,
+				CE69BA692227F61100876059 /* ClassB.m */,
+				CE69BA6B2227F62D00876059 /* ClassC.h */,
+				CE69BA6C2227F62D00876059 /* ClassC.m */,
+				CE69BA6E2227F65B00876059 /* Facade.h */,
+				CE69BA6F2227F65B00876059 /* Facade.m */,
+				CE69BA712227F85A00876059 /* Facade2.h */,
+				CE69BA722227F85A00876059 /* Facade2.m */,
+				CE69BA742227F97B00876059 /* Context.h */,
+				CE69BA752227F97B00876059 /* Context.m */,
+				CE69BA5C2227F17400876059 /* Client.h */,
+				CE69BA5D2227F17400876059 /* Client.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE69BA2F2227F04A00876059 /* FacadeDesignPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE69BA512227F04C00876059 /* Build configuration list for PBXNativeTarget "FacadeDesignPattern" */;
+			buildPhases = (
+				CE69BA2C2227F04A00876059 /* Sources */,
+				CE69BA2D2227F04A00876059 /* Frameworks */,
+				CE69BA2E2227F04A00876059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacadeDesignPattern;
+			productName = FacadeDesignPattern;
+			productReference = CE69BA302227F04A00876059 /* FacadeDesignPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE69BA472227F04C00876059 /* FacadeDesignPatternTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE69BA542227F04C00876059 /* Build configuration list for PBXNativeTarget "FacadeDesignPatternTests" */;
+			buildPhases = (
+				CE69BA442227F04C00876059 /* Sources */,
+				CE69BA452227F04C00876059 /* Frameworks */,
+				CE69BA462227F04C00876059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE69BA4A2227F04C00876059 /* PBXTargetDependency */,
+			);
+			name = FacadeDesignPatternTests;
+			productName = FacadeDesignPatternTests;
+			productReference = CE69BA482227F04C00876059 /* FacadeDesignPatternTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE69BA282227F04A00876059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CE69BA2F2227F04A00876059 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CE69BA472227F04C00876059 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CE69BA2F2227F04A00876059;
+					};
+				};
+			};
+			buildConfigurationList = CE69BA2B2227F04A00876059 /* Build configuration list for PBXProject "FacadeDesignPattern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE69BA272227F04A00876059;
+			productRefGroup = CE69BA312227F04A00876059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE69BA2F2227F04A00876059 /* FacadeDesignPattern */,
+				CE69BA472227F04C00876059 /* FacadeDesignPatternTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE69BA2E2227F04A00876059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE69BA402227F04C00876059 /* LaunchScreen.storyboard in Resources */,
+				CE69BA3D2227F04C00876059 /* Assets.xcassets in Resources */,
+				CE69BA3B2227F04A00876059 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE69BA462227F04C00876059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE69BA2C2227F04A00876059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE69BA382227F04A00876059 /* ViewController.m in Sources */,
+				CE69BA642227F40B00876059 /* Police.m in Sources */,
+				CE69BA702227F65B00876059 /* Facade.m in Sources */,
+				CE69BA762227F97B00876059 /* Context.m in Sources */,
+				CE69BA6D2227F62D00876059 /* ClassC.m in Sources */,
+				CE69BA672227F5EB00876059 /* ClassA.m in Sources */,
+				CE69BA6A2227F61100876059 /* ClassB.m in Sources */,
+				CE69BA432227F04C00876059 /* main.m in Sources */,
+				CE69BA352227F04A00876059 /* AppDelegate.m in Sources */,
+				CE69BA612227F2D000876059 /* ModenPostOffice.m in Sources */,
+				CE69BA5B2227F10C00876059 /* LetterProcessImpl.m in Sources */,
+				CE69BA732227F85A00876059 /* Facade2.m in Sources */,
+				CE69BA5E2227F17400876059 /* Client.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE69BA442227F04C00876059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE69BA4D2227F04C00876059 /* FacadeDesignPatternTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE69BA4A2227F04C00876059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE69BA2F2227F04A00876059 /* FacadeDesignPattern */;
+			targetProxy = CE69BA492227F04C00876059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE69BA392227F04A00876059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE69BA3A2227F04A00876059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE69BA3E2227F04C00876059 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE69BA3F2227F04C00876059 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE69BA4F2227F04C00876059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE69BA502227F04C00876059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE69BA522227F04C00876059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				INFOPLIST_FILE = FacadeDesignPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.FacadeDesignPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE69BA532227F04C00876059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				INFOPLIST_FILE = FacadeDesignPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.FacadeDesignPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE69BA552227F04C00876059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				INFOPLIST_FILE = FacadeDesignPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.FacadeDesignPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacadeDesignPattern.app/FacadeDesignPattern";
+			};
+			name = Debug;
+		};
+		CE69BA562227F04C00876059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				INFOPLIST_FILE = FacadeDesignPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.FacadeDesignPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacadeDesignPattern.app/FacadeDesignPattern";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE69BA2B2227F04A00876059 /* Build configuration list for PBXProject "FacadeDesignPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE69BA4F2227F04C00876059 /* Debug */,
+				CE69BA502227F04C00876059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE69BA512227F04C00876059 /* Build configuration list for PBXNativeTarget "FacadeDesignPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE69BA522227F04C00876059 /* Debug */,
+				CE69BA532227F04C00876059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE69BA542227F04C00876059 /* Build configuration list for PBXNativeTarget "FacadeDesignPatternTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE69BA552227F04C00876059 /* Debug */,
+				CE69BA562227F04C00876059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE69BA282227F04A00876059 /* Project object */;
+}
