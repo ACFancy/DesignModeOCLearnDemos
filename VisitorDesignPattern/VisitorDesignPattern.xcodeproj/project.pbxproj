@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE69BB01222CBA4900876059 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB00222CBA4900876059 /* AppDelegate.m */; };
+		CE69BB04222CBA4900876059 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB03222CBA4900876059 /* ViewController.m */; };
+		CE69BB07222CBA4900876059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE69BB05222CBA4900876059 /* Main.storyboard */; };
+		CE69BB09222CBA4A00876059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE69BB08222CBA4A00876059 /* Assets.xcassets */; };
+		CE69BB0C222CBA4A00876059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE69BB0A222CBA4A00876059 /* LaunchScreen.storyboard */; };
+		CE69BB0F222CBA4A00876059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB0E222CBA4A00876059 /* main.m */; };
+		CE69BB19222CBA4A00876059 /* VisitorDesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB18222CBA4A00876059 /* VisitorDesignPatternTests.m */; };
+		CE69BB26222CC32E00876059 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB25222CC32E00876059 /* Employee.m */; };
+		CE69BB29222CC52000876059 /* CommonEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB28222CC52000876059 /* CommonEmployee.m */; };
+		CE69BB2C222CC62A00876059 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB2B222CC62A00876059 /* Manager.m */; };
+		CE69BB2F222CC6BF00876059 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB2E222CC6BF00876059 /* Client.m */; };
+		CE69BB33222CCAA500876059 /* Visitor.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB32222CCAA500876059 /* Visitor.m */; };
+		CE69BB36222CCFA000876059 /* AElement.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB35222CCFA000876059 /* AElement.m */; };
+		CE69BB3A222CD05F00876059 /* ConcreteElement1.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB39222CD05F00876059 /* ConcreteElement1.m */; };
+		CE69BB3D222CD08E00876059 /* ConcreteElement2.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB3C222CD08E00876059 /* ConcreteElement2.m */; };
+		CE69BB40222CD0E300876059 /* AVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB3F222CD0E300876059 /* AVisitor.m */; };
+		CE69BB43222CD17800876059 /* ObjectStruture.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB42222CD17800876059 /* ObjectStruture.m */; };
+		CE69BB47222CF2AD00876059 /* ShowVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB46222CF2AD00876059 /* ShowVisitor.m */; };
+		CE69BB4B222CF2FF00876059 /* TotalVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB4A222CF2FF00876059 /* TotalVisitor.m */; };
+		CE69BB4F222CF6C600876059 /* KungFuRole.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB4E222CF6C600876059 /* KungFuRole.m */; };
+		CE69BB52222CF6E700876059 /* IdiotRole.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB51222CF6E700876059 /* IdiotRole.m */; };
+		CE69BB55222CF70A00876059 /* AbsActor.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB54222CF70A00876059 /* AbsActor.m */; };
+		CE69BB58222CF7BC00876059 /* YoungActor.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB57222CF7BC00876059 /* YoungActor.m */; };
+		CE69BB5B222CF7F500876059 /* OldActor.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69BB5A222CF7F500876059 /* OldActor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE69BB15222CBA4A00876059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE69BAF4222CBA4900876059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE69BAFB222CBA4900876059;
+			remoteInfo = VisitorDesignPattern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE69BAFC222CBA4900876059 /* VisitorDesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisitorDesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE69BAFF222CBA4900876059 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE69BB00222CBA4900876059 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE69BB02222CBA4900876059 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE69BB03222CBA4900876059 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE69BB06222CBA4900876059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE69BB08222CBA4A00876059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE69BB0B222CBA4A00876059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE69BB0D222CBA4A00876059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE69BB0E222CBA4A00876059 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE69BB14222CBA4A00876059 /* VisitorDesignPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisitorDesignPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE69BB18222CBA4A00876059 /* VisitorDesignPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisitorDesignPatternTests.m; sourceTree = "<group>"; };
+		CE69BB1A222CBA4A00876059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE69BB24222CC32E00876059 /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		CE69BB25222CC32E00876059 /* Employee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		CE69BB27222CC52000876059 /* CommonEmployee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonEmployee.h; sourceTree = "<group>"; };
+		CE69BB28222CC52000876059 /* CommonEmployee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonEmployee.m; sourceTree = "<group>"; };
+		CE69BB2A222CC62A00876059 /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		CE69BB2B222CC62A00876059 /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		CE69BB2D222CC6BF00876059 /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		CE69BB2E222CC6BF00876059 /* Client.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		CE69BB30222CCA1600876059 /* IVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVisitor.h; sourceTree = "<group>"; };
+		CE69BB31222CCAA500876059 /* Visitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
+		CE69BB32222CCAA500876059 /* Visitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Visitor.m; sourceTree = "<group>"; };
+		CE69BB34222CCFA000876059 /* AElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AElement.h; sourceTree = "<group>"; };
+		CE69BB35222CCFA000876059 /* AElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AElement.m; sourceTree = "<group>"; };
+		CE69BB37222CCFC300876059 /* IAVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAVisitor.h; sourceTree = "<group>"; };
+		CE69BB38222CD05F00876059 /* ConcreteElement1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteElement1.h; sourceTree = "<group>"; };
+		CE69BB39222CD05F00876059 /* ConcreteElement1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteElement1.m; sourceTree = "<group>"; };
+		CE69BB3B222CD08E00876059 /* ConcreteElement2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteElement2.h; sourceTree = "<group>"; };
+		CE69BB3C222CD08E00876059 /* ConcreteElement2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteElement2.m; sourceTree = "<group>"; };
+		CE69BB3E222CD0E300876059 /* AVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVisitor.h; sourceTree = "<group>"; };
+		CE69BB3F222CD0E300876059 /* AVisitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVisitor.m; sourceTree = "<group>"; };
+		CE69BB41222CD17800876059 /* ObjectStruture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectStruture.h; sourceTree = "<group>"; };
+		CE69BB42222CD17800876059 /* ObjectStruture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectStruture.m; sourceTree = "<group>"; };
+		CE69BB44222CF28800876059 /* IShowVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IShowVisitor.h; sourceTree = "<group>"; };
+		CE69BB45222CF2AD00876059 /* ShowVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowVisitor.h; sourceTree = "<group>"; };
+		CE69BB46222CF2AD00876059 /* ShowVisitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowVisitor.m; sourceTree = "<group>"; };
+		CE69BB48222CF2E200876059 /* ITotalVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITotalVisitor.h; sourceTree = "<group>"; };
+		CE69BB49222CF2FF00876059 /* TotalVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TotalVisitor.h; sourceTree = "<group>"; };
+		CE69BB4A222CF2FF00876059 /* TotalVisitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TotalVisitor.m; sourceTree = "<group>"; };
+		CE69BB4C222CF6A900876059 /* Role.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Role.h; sourceTree = "<group>"; };
+		CE69BB4D222CF6C600876059 /* KungFuRole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KungFuRole.h; sourceTree = "<group>"; };
+		CE69BB4E222CF6C600876059 /* KungFuRole.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KungFuRole.m; sourceTree = "<group>"; };
+		CE69BB50222CF6E700876059 /* IdiotRole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdiotRole.h; sourceTree = "<group>"; };
+		CE69BB51222CF6E700876059 /* IdiotRole.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdiotRole.m; sourceTree = "<group>"; };
+		CE69BB53222CF70A00876059 /* AbsActor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsActor.h; sourceTree = "<group>"; };
+		CE69BB54222CF70A00876059 /* AbsActor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbsActor.m; sourceTree = "<group>"; };
+		CE69BB56222CF7BC00876059 /* YoungActor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YoungActor.h; sourceTree = "<group>"; };
+		CE69BB57222CF7BC00876059 /* YoungActor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoungActor.m; sourceTree = "<group>"; };
+		CE69BB59222CF7F500876059 /* OldActor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OldActor.h; sourceTree = "<group>"; };
+		CE69BB5A222CF7F500876059 /* OldActor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OldActor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE69BAF9222CBA4900876059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE69BB11222CBA4A00876059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE69BAF3222CBA4900876059 = {
+			isa = PBXGroup;
+			children = (
+				CE69BAFE222CBA4900876059 /* VisitorDesignPattern */,
+				CE69BB17222CBA4A00876059 /* VisitorDesignPatternTests */,
+				CE69BAFD222CBA4900876059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE69BAFD222CBA4900876059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE69BAFC222CBA4900876059 /* VisitorDesignPattern.app */,
+				CE69BB14222CBA4A00876059 /* VisitorDesignPatternTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE69BAFE222CBA4900876059 /* VisitorDesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				CE69BB23222CBA5200876059 /* Classes */,
+				CE69BAFF222CBA4900876059 /* AppDelegate.h */,
+				CE69BB00222CBA4900876059 /* AppDelegate.m */,
+				CE69BB02222CBA4900876059 /* ViewController.h */,
+				CE69BB03222CBA4900876059 /* ViewController.m */,
+				CE69BB05222CBA4900876059 /* Main.storyboard */,
+				CE69BB08222CBA4A00876059 /* Assets.xcassets */,
+				CE69BB0A222CBA4A00876059 /* LaunchScreen.storyboard */,
+				CE69BB0D222CBA4A00876059 /* Info.plist */,
+				CE69BB0E222CBA4A00876059 /* main.m */,
+			);
+			path = VisitorDesignPattern;
+			sourceTree = "<group>";
+		};
+		CE69BB17222CBA4A00876059 /* VisitorDesignPatternTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE69BB18222CBA4A00876059 /* VisitorDesignPatternTests.m */,
+				CE69BB1A222CBA4A00876059 /* Info.plist */,
+			);
+			path = VisitorDesignPatternTests;
+			sourceTree = "<group>";
+		};
+		CE69BB23222CBA5200876059 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE69BB24222CC32E00876059 /* Employee.h */,
+				CE69BB25222CC32E00876059 /* Employee.m */,
+				CE69BB27222CC52000876059 /* CommonEmployee.h */,
+				CE69BB28222CC52000876059 /* CommonEmployee.m */,
+				CE69BB2A222CC62A00876059 /* Manager.h */,
+				CE69BB2B222CC62A00876059 /* Manager.m */,
+				CE69BB30222CCA1600876059 /* IVisitor.h */,
+				CE69BB31222CCAA500876059 /* Visitor.h */,
+				CE69BB32222CCAA500876059 /* Visitor.m */,
+				CE69BB34222CCFA000876059 /* AElement.h */,
+				CE69BB35222CCFA000876059 /* AElement.m */,
+				CE69BB38222CD05F00876059 /* ConcreteElement1.h */,
+				CE69BB39222CD05F00876059 /* ConcreteElement1.m */,
+				CE69BB3B222CD08E00876059 /* ConcreteElement2.h */,
+				CE69BB3C222CD08E00876059 /* ConcreteElement2.m */,
+				CE69BB37222CCFC300876059 /* IAVisitor.h */,
+				CE69BB3E222CD0E300876059 /* AVisitor.h */,
+				CE69BB3F222CD0E300876059 /* AVisitor.m */,
+				CE69BB41222CD17800876059 /* ObjectStruture.h */,
+				CE69BB42222CD17800876059 /* ObjectStruture.m */,
+				CE69BB44222CF28800876059 /* IShowVisitor.h */,
+				CE69BB45222CF2AD00876059 /* ShowVisitor.h */,
+				CE69BB46222CF2AD00876059 /* ShowVisitor.m */,
+				CE69BB48222CF2E200876059 /* ITotalVisitor.h */,
+				CE69BB49222CF2FF00876059 /* TotalVisitor.h */,
+				CE69BB4A222CF2FF00876059 /* TotalVisitor.m */,
+				CE69BB4C222CF6A900876059 /* Role.h */,
+				CE69BB4D222CF6C600876059 /* KungFuRole.h */,
+				CE69BB4E222CF6C600876059 /* KungFuRole.m */,
+				CE69BB50222CF6E700876059 /* IdiotRole.h */,
+				CE69BB51222CF6E700876059 /* IdiotRole.m */,
+				CE69BB53222CF70A00876059 /* AbsActor.h */,
+				CE69BB54222CF70A00876059 /* AbsActor.m */,
+				CE69BB56222CF7BC00876059 /* YoungActor.h */,
+				CE69BB57222CF7BC00876059 /* YoungActor.m */,
+				CE69BB59222CF7F500876059 /* OldActor.h */,
+				CE69BB5A222CF7F500876059 /* OldActor.m */,
+				CE69BB2D222CC6BF00876059 /* Client.h */,
+				CE69BB2E222CC6BF00876059 /* Client.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE69BAFB222CBA4900876059 /* VisitorDesignPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE69BB1D222CBA4A00876059 /* Build configuration list for PBXNativeTarget "VisitorDesignPattern" */;
+			buildPhases = (
+				CE69BAF8222CBA4900876059 /* Sources */,
+				CE69BAF9222CBA4900876059 /* Frameworks */,
+				CE69BAFA222CBA4900876059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisitorDesignPattern;
+			productName = VisitorDesignPattern;
+			productReference = CE69BAFC222CBA4900876059 /* VisitorDesignPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE69BB13222CBA4A00876059 /* VisitorDesignPatternTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE69BB20222CBA4A00876059 /* Build configuration list for PBXNativeTarget "VisitorDesignPatternTests" */;
+			buildPhases = (
+				CE69BB10222CBA4A00876059 /* Sources */,
+				CE69BB11222CBA4A00876059 /* Frameworks */,
+				CE69BB12222CBA4A00876059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE69BB16222CBA4A00876059 /* PBXTargetDependency */,
+			);
+			name = VisitorDesignPatternTests;
+			productName = VisitorDesignPatternTests;
+			productReference = CE69BB14222CBA4A00876059 /* VisitorDesignPatternTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE69BAF4222CBA4900876059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CE69BAFB222CBA4900876059 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CE69BB13222CBA4A00876059 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CE69BAFB222CBA4900876059;
+					};
+				};
+			};
+			buildConfigurationList = CE69BAF7222CBA4900876059 /* Build configuration list for PBXProject "VisitorDesignPattern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE69BAF3222CBA4900876059;
+			productRefGroup = CE69BAFD222CBA4900876059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE69BAFB222CBA4900876059 /* VisitorDesignPattern */,
+				CE69BB13222CBA4A00876059 /* VisitorDesignPatternTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE69BAFA222CBA4900876059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE69BB0C222CBA4A00876059 /* LaunchScreen.storyboard in Resources */,
+				CE69BB09222CBA4A00876059 /* Assets.xcassets in Resources */,
+				CE69BB07222CBA4900876059 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE69BB12222CBA4A00876059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE69BAF8222CBA4900876059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE69BB04222CBA4900876059 /* ViewController.m in Sources */,
+				CE69BB2C222CC62A00876059 /* Manager.m in Sources */,
+				CE69BB26222CC32E00876059 /* Employee.m in Sources */,
+				CE69BB47222CF2AD00876059 /* ShowVisitor.m in Sources */,
+				CE69BB3A222CD05F00876059 /* ConcreteElement1.m in Sources */,
+				CE69BB0F222CBA4A00876059 /* main.m in Sources */,
+				CE69BB33222CCAA500876059 /* Visitor.m in Sources */,
+				CE69BB29222CC52000876059 /* CommonEmployee.m in Sources */,
+				CE69BB52222CF6E700876059 /* IdiotRole.m in Sources */,
+				CE69BB5B222CF7F500876059 /* OldActor.m in Sources */,
+				CE69BB01222CBA4900876059 /* AppDelegate.m in Sources */,
+				CE69BB4F222CF6C600876059 /* KungFuRole.m in Sources */,
+				CE69BB36222CCFA000876059 /* AElement.m in Sources */,
+				CE69BB43222CD17800876059 /* ObjectStruture.m in Sources */,
+				CE69BB2F222CC6BF00876059 /* Client.m in Sources */,
+				CE69BB55222CF70A00876059 /* AbsActor.m in Sources */,
+				CE69BB4B222CF2FF00876059 /* TotalVisitor.m in Sources */,
+				CE69BB40222CD0E300876059 /* AVisitor.m in Sources */,
+				CE69BB3D222CD08E00876059 /* ConcreteElement2.m in Sources */,
+				CE69BB58222CF7BC00876059 /* YoungActor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE69BB10222CBA4A00876059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE69BB19222CBA4A00876059 /* VisitorDesignPatternTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE69BB16222CBA4A00876059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE69BAFB222CBA4900876059 /* VisitorDesignPattern */;
+			targetProxy = CE69BB15222CBA4A00876059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE69BB05222CBA4900876059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE69BB06222CBA4900876059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE69BB0A222CBA4A00876059 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE69BB0B222CBA4A00876059 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE69BB1B222CBA4A00876059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE69BB1C222CBA4A00876059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE69BB1E222CBA4A00876059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				INFOPLIST_FILE = VisitorDesignPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.VisitorDesignPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE69BB1F222CBA4A00876059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				INFOPLIST_FILE = VisitorDesignPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.VisitorDesignPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE69BB21222CBA4A00876059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				INFOPLIST_FILE = VisitorDesignPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.VisitorDesignPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisitorDesignPattern.app/VisitorDesignPattern";
+			};
+			name = Debug;
+		};
+		CE69BB22222CBA4A00876059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				INFOPLIST_FILE = VisitorDesignPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lv.VisitorDesignPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisitorDesignPattern.app/VisitorDesignPattern";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE69BAF7222CBA4900876059 /* Build configuration list for PBXProject "VisitorDesignPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE69BB1B222CBA4A00876059 /* Debug */,
+				CE69BB1C222CBA4A00876059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE69BB1D222CBA4A00876059 /* Build configuration list for PBXNativeTarget "VisitorDesignPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE69BB1E222CBA4A00876059 /* Debug */,
+				CE69BB1F222CBA4A00876059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE69BB20222CBA4A00876059 /* Build configuration list for PBXNativeTarget "VisitorDesignPatternTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE69BB21222CBA4A00876059 /* Debug */,
+				CE69BB22222CBA4A00876059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE69BAF4222CBA4900876059 /* Project object */;
+}
