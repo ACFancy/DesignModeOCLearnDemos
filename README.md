@@ -9,4 +9,4 @@ learn note about Design Mode. write some OC Demos
 - 图三
 ![图三](./DesignPatternImgs/img_2.jpg)
 - 图四
-![图四](./DesignPatternImgs/img_3.jpg)
+![图四 ](./DesignPatternImgs/img_3.jpg#)
